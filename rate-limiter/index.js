@@ -11,6 +11,8 @@ const limiter = rateLimit({
 	},
 })
 
+// app.use(limiter) for applying the rate limiter to all routes
+
 
 app.get("/", limiter, (req, res) => {
     res.json({message:"Hello from the server."})
