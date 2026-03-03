@@ -1,0 +1,65 @@
+{
+  "idempotencyKey": "b7f3a9c2-9d44-4f7c-8a11-ORD-20260227-001",
+
+  "orderId": "ORD-20260227-001",
+
+  "user": {
+    "userId": "USR-1001",
+    "name": "Ankit Jha",
+    "email": "ankit@example.com",
+    "phone": "+91-9876543210"
+  },
+
+  "items": [
+    {
+      "productId": "PROD-101",
+      "productName": "Wireless Mouse",
+      "sku": "WM-LOGI-001",
+      "quantity": 2,
+      "unitPrice": 799,
+      "currency": "INR",
+      "total": 1598
+    },
+    {
+      "productId": "PROD-205",
+      "productName": "Mechanical Keyboard",
+      "sku": "MK-RED-002",
+      "quantity": 1,
+      "unitPrice": 3499,
+      "currency": "INR",
+      "total": 3499
+    }
+  ],
+
+  "pricing": {
+    "subtotal": 5097,
+    "tax": 918,
+    "shippingFee": 99,
+    "discount": 500,
+    "grandTotal": 5614,
+    "currency": "INR"
+  },
+
+  "payment": {
+    "paymentId": "PAY-88990011",
+    "method": "UPI",
+    "status": "SUCCESS",
+    "transactionId": "TXN-55667788",
+    "paidAt": "2026-02-27T10:45:00Z"
+  },
+
+  "shipping": {
+    "addressLine1": "123, MG Road",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "postalCode": "380001",
+    "country": "India",
+    "deliveryStatus": "SHIPPED",
+    "estimatedDelivery": "2026-03-02"
+  },
+
+  "orderStatus": "CONFIRMED",
+
+  "createdAt": "2026-02-27T10:40:00Z",
+  "updatedAt": "2026-02-27T10:46:00Z"
+}
